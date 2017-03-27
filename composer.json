@@ -1,0 +1,48 @@
+{
+  "name": "josedacosta/query-builder",
+  "homepage": "http://github.com/josedacosta/QueryBuilderBundle",
+  "description": "from jQuery QueryBuilder to Doctrine QueryBuilder",
+  "version": "1.0",
+  "keywords": [
+    "doctrine",
+    "ajax",
+    "jquery",
+    "parser",
+    "Query Builder",
+    "QueryBuilder",
+    "Symfony",
+    "ORM",
+    "jQuery",
+    "Symfony",
+    "jQuery QueryBuilder"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "José DA COSTA",
+      "email": "contact@josedacosta.info",
+      "homepage": "http://josedacosta.info"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "josedacosta\\": "src/",
+      "josedacosta\\test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0",
+    "symfony/config": "~2.8|~3.0|~3.1",
+    "symfony/dependency-injection": "~2.8|~3.0|~3.1",
+    "symfony/http-kernel": "~2.8|~3.0|~3.1",
+    "symfony/event-dispatcher": "~2.8|~3.0|~3.1",
+    "symfony/property-info": "~2.8|~3.0|~3.1",
+    "illuminate/database": "4.1 - 5.4",
+    "doctrine/orm": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.7.*@dev"
+  }
+}
