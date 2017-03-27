@@ -1,5 +1,5 @@
 {
-  "name": "josedacosta/querybuilderbundle",
+  "name": "josedacosta/query-builder-bundle",
   "homepage": "http://github.com/josedacosta/QueryBuilderBundle",
   "description": "from jQuery QueryBuilder to Doctrine QueryBuilder",
   "version": "1.0",
@@ -14,7 +14,8 @@
     "ORM",
     "jQuery",
     "Symfony",
-    "jQuery QueryBuilder"
+    "jQuery QueryBuilder",
+    "query-builder-bundle"
   ],
   "type": "library",
   "license": "MIT",
