@@ -1,5 +1,5 @@
 {
-  "name": "josedacosta/query-builder",
+  "name": "josedacosta/querybuilderbundle",
   "homepage": "http://github.com/josedacosta/QueryBuilderBundle",
   "description": "from jQuery QueryBuilder to Doctrine QueryBuilder",
   "version": "1.0",
