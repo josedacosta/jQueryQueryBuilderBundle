@@ -1,6 +1,6 @@
 <?php
 
-namespace JoseDACOSTA\jQueryQueryBuilderBundle;
+namespace JD\jQueryQueryBuilderBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

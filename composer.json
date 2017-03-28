@@ -28,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "JoseDACOSTA\\jQueryQueryBuilderBundle\\": ""
+      "JD\\jQueryQueryBuilderBundle\\": ""
     }
   },
   "minimum-stability": "dev",
