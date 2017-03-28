@@ -15,7 +15,10 @@
     "jQuery",
     "Symfony",
     "jQuery QueryBuilder",
-    "query-builder-bundle"
+    "query-builder-bundle",
+    "josedacosta",
+    "José DA COSTA",
+    "DACOSTA"
   ],
   "type": "library",
   "license": "MIT",
