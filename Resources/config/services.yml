@@ -1,0 +1,5 @@
+services:
+    jquery_query_builder:
+        class: JD\jQueryQueryBuilderBundle\Services\jQueryQueryBuilder
+    jquery_query_builder.parser:
+        class: JD\jQueryQueryBuilderBundle\Services\jQueryQueryBuilderParser
