@@ -259,8 +259,13 @@ class jQueryQueryBuilderParser
 
         $condition = $this->validateCondition($condition);
 
+        foreach ($rule->rules as $loopRule) {
+
+        }
+
+
         // TODO à finir en Doctrine :
-        exit('TODO : Doctrine Querybuilder where nested !!!');
+        /*exit('TODO : Doctrine Querybuilder where nested !!!');
         return $queryBuilder->whereNested(function ($query) use (&$rule, &$queryBuilder, &$condition) {
             foreach ($rule->rules as $loopRule) {
                 $function = 'makeQuery';
@@ -272,7 +277,12 @@ class jQueryQueryBuilderParser
                 $queryBuilder = $this->{$function}($query, $loopRule, $rule->condition);
             }
 
-        }, $condition);
+        }, $condition);*/
+    }
+
+    protected function makeNestedQuery(QueryBuilder $queryBuilder, array $rules, $condition)
+    {
+
     }
 
 }
